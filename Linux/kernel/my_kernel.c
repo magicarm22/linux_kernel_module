@@ -7,11 +7,6 @@
 #include <linux/fs.h>
 #include <asm/uaccess.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Robert W. Oliver II");
-MODULE_DESCRIPTION("A simple example Linux module.");
-MODULE_VERSION("0.01");
-
 #define DEVICE_NAME "my_kernel"
 
 
